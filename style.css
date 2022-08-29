@@ -55,14 +55,9 @@ span {
   cursor: pointer;
 }
 
-/* .choose-cards img:active {
+.choose-cards img:active {
   opacity: 0.5;
-  transition: 0.3s;
-} */
-
-.choose-cards img:focus {
-  opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .container {

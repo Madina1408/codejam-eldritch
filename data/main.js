@@ -15,6 +15,7 @@ let chosenCard = "";
 image.forEach((i) => {
   i.addEventListener("click", () => {
     chosenCard = i.id;
+    // i.style.border = "2px solid yellow";
     document.querySelector(".tracker-div").style.display = "inline-block";
     displayTracker();
     calculateRequiredColorCounts(chosenCard);
@@ -300,7 +301,13 @@ document.getElementById("next-id").addEventListener("click", () => {
   }
 });
 
-// function createSmallDecks(){
-//   if (chosenCard.name =="azaroth")
-// }
-// createSmallDecks()
+let firstStageCards = [],
+  secondStageCards = [],
+  thirdStageCards = [];
+
+function createSmallDecks() {
+  if (difficultyLevel == "easy") {
+    neededEasyCardAmount.forEach((item) => {});
+  }
+}
+createSmallDecks();
